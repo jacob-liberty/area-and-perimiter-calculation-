@@ -1,0 +1,104 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : true,
+        "frame" : "{{6, 6}, {528, 100}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "8AC6B882-2A97-45E1-8D8A-6AF23007F023",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "A rectangle has a length of 5m and a width of 3m, calculate the area and perimiter of this shape",
+          "name" : "question_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 114}, {522, 64}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_perimiter_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate perimiter",
+          "uuid" : "EF0DA105-9C79-43E2-A25D-9E2E882BDAD2",
+          "class" : "Button",
+          "name" : "calculate_perimiter_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 414}, {528, 120}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "46CC8D65-D44E-41CD-87C5-6C8CEB92F2FD",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "name" : "area_label",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 287}, {528, 120}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "4130064A-5E22-41AC-A32A-341E617D6330",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 18,
+          "name" : "perimiter_label"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{6, 186}, {522, 64}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_area_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate area",
+          "uuid" : "CC2DFC88-DB3C-4629-9234-46D55D7FD133",
+          "class" : "Button",
+          "name" : "calculate_area_button",
+          "font_size" : 15
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
